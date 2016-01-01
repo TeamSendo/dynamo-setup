@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "db:create": "NODE_PATH=`pwd` node --use-strict lib/create-tables.js",
+    "db:drop": "NODE_PATH=`pwd` node --use-strict lib/destroy-tables.js",
+    "db:start-dynamo": "java -Djava.library.path=/usr/local/bin/DynamoDBLocal_lib -jar /usr/local/bin/DynamoDBLocal.jar -sharedDb",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
