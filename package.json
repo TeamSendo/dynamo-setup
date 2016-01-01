@@ -1,0 +1,16 @@
+{
+  "name": "dynamo-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Feifan Zhou <feifan@sendo.me>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeamSendo/dynamo-setup.git"
+  }
+}
